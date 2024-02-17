@@ -1,0 +1,600 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif, "poppins";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(16, 20, 24, 5);
+  color: #e5eaf2;
+  width: 100%;
+}
+
+span {
+  color: #419bf4;
+}
+
+/* --------------- NAV PAGE ------------------ */
+
+.dark {
+  padding-top: 2rem;
+}
+
+.brand {
+  font-size: 1.8rem;
+  letter-spacing: 10px;
+}
+
+.me-auto {
+  column-gap: 1.5rem;
+  display: flex;
+  font-size: x-large;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.mt-2 {
+  border: none;
+  color: #419bf4;
+  font-size: 1.5rem;
+  padding-top: 2px;
+}
+.head-head,
+.sub-head,
+.contac-head,
+.mb-4,
+.label,
+.bout-about-edu,
+.about-about-link,
+.edu-head-head,
+.edu-orders,
+.card-h5,
+span,
+h2,
+h3,
+li,
+p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* ---------------- HEADING PAGE ----------------- */
+
+.heading-row {
+  width: auto;
+}
+
+.head-head {
+  animation: head 5s 180;
+  font-size: 4.7rem;
+  font-weight: 900;
+  margin-top: 22rem;
+  position: relative;
+  z-index: 10;
+}
+
+.sub-head {
+  color: #809bb5;
+  font-size: large;
+  letter-spacing: 8px;
+  text-align: start;
+}
+
+.img-row {
+  border-radius: 5%;
+  height: 40rem;
+  margin-top: -100mm;
+  margin-left: 1.5em;
+}
+
+/* -------------- CONCERNING PAGE ------------------- */
+
+.about-about {
+  padding: 6em 0;
+  text-align: center;
+}
+
+.about-about-row,
+h2 {
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+}
+
+.about-about-row,
+h4 {
+  color: #809bb5;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.about-about-col {
+  font-weight: 700;
+  margin-bottom: 7em;
+  width: 50%;
+}
+
+h3 {
+  color: #e5eaf2;
+  padding: 25px 0;
+}
+/* .Bold {
+  font-size: 23px;
+} */
+
+*::before {
+  align-items: center;
+  background-color: #419bf4;
+  border-radius: 50px;
+  content: "";
+  display: flex;
+  height: 6px;
+  justify-content: center;
+  margin-top: 35px;
+  position: absolute;
+  transition: tranaform 0.2s linear;
+}
+
+.about-about-edu:hover::before,
+.about-about-link:hover:before,
+.about-about-skill::before {
+  width: 93px;
+}
+
+.about-about-skill::before {
+  background-color: #b618b6;
+}
+
+.about-about-skill:hover::before {
+  width: 0;
+}
+
+/* ---------------- AMUSEMENT PAGE ----------------------- */
+
+.hobb-head {
+  animation: hobb-head 8s linear infinite;
+  font-size: 175px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3rem;
+  padding-top: 35rem;
+  position: absolute;
+  z-index: 10;
+}
+
+/* ----------------- Animation here ---------------------- */
+
+.hobb-link {
+  font-size: 1.5rem;
+  line-height: 39px;
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.carusel-item {
+  height: 55rem;
+}
+
+.carusel-item img {
+  height: 250%;
+  opacity: 0.5;
+  width: 100%;
+}
+
+/* ---------- card ----------- */
+
+.card-h4,
+.card-h5 {
+  color: #e5eaf2;
+  font-size: x-large;
+  letter-spacing: 4px;
+}
+
+.card-h4 {
+  text-align: center;
+  text-decoration: underline wavy gray;
+  text-underline-offset: 20px;
+}
+
+/* .card-h6 {
+  color: #E5EAF2;
+} */
+
+.card,
+.second-card-card,
+.text-card,
+.text-text {
+  background-color: transparent;
+}
+
+.card {
+  border: none;
+  display: inline-block;
+  margin: 4rem 0 3rem 4rem;
+  text-align: center;
+  width: 43%;
+}
+
+.text-card {
+  display: inline;
+  float: right;
+  font-size: 1.4rem;
+  line-height: 34px;
+  margin-top: 25rem;
+  width: 45%;
+}
+
+.text-text {
+  display: inline;
+  float: left;
+  font-size: 1.4rem;
+  line-height: 34px;
+  margin-top: 17rem;
+  width: 50%;
+}
+
+.classic,
+.classic-ancher {
+  background-color: #121e2a;
+  font-size: 1.5rem;
+  font-family: "Courier New", sans-serif;
+  height: 20em;
+  padding: 10rem;
+  position: relative;
+}
+
+.classic-ancher {
+  font-size: 2rem;
+  height: 27rem;
+  text-align: end;
+}
+
+.ancher {
+  color: #ff7f50;
+}
+
+/* ---------------- LET'S CHAT PAGE ------------------ */
+
+.conta-cont {
+  align-items: center;
+  background-color: #121e2a;
+  border-radius: 10px;
+  display: flex;
+  height: 65vh;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+.conta-head,
+.conta-cont-row {
+  text-align: center;
+  width: 75%;
+}
+
+.conta-cont-row .mb-4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+.icon {
+  color: #ff7f50;
+}
+
+.form {
+  padding-left: 3em;
+  width: 100%;
+}
+
+.control,
+.control-row {
+  background-color: #1a2d40;
+  border: none;
+  font-size: x-large;
+}
+
+.label {
+  font-size: 23px;
+}
+
+.btn-btn {
+  background-color: #ff7f50;
+  border: none;
+  color: #171819;
+  font-size: 27.5px;
+  letter-spacing: 35px;
+  width: 100%;
+}
+
+/* ------------- DISCIPLINE PAGE -------------------- */
+
+.row-edu-row {
+  height: 110vh;
+  width: 100%;
+}
+
+.edu-head-head {
+  margin: 60px;
+  text-align: center;
+}
+
+.edu-img {
+  border-radius: 23px;
+  opacity: 0.6;
+  width: 90%;
+}
+
+ol {
+  align-items: flex-end;
+  display: block;
+  justify-content: flex-end;
+  list-style: none;
+  line-height: 27px;
+  margin-left: -5rem;
+}
+
+.edu-orders h4 {
+  color: #419bf4;
+}
+
+/* ---------------- PROJECTS PAGE ------------------- */
+
+.proj-card-card {
+  border-radius: 30px;
+  display: inline-block;
+  height: 21rem;
+  width: 19.5%;
+}
+
+.proj-card-img {
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+/* ---------------- EXPERTISE PAGE ---------------------- */
+
+.skill {
+  letter-spacing: 0.5rem;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.skill h2 {
+  font-weight: 900;
+  line-height: 6rem;
+}
+
+ .skills {
+  align-items: center;
+  display: flex;
+  font-size: 70px;
+  gap: 26px;
+  list-style: none;
+  justify-content: center;
+  margin: 3rem 0 15rem 0;
+}
+
+/* --------------- FOOTER PAGE --------------------- */
+
+hr {
+  margin-top: 8vh;
+  padding-top: 2.4rem;
+}
+
+.footer-start ul,
+p {
+  color: #415262;
+  text-align: center;
+}
+
+.footer-start {
+  padding: 0 4.5rem;
+}
+
+.footer-start ul, a {
+  column-gap: 1.1rem;
+  display: flex;
+  font-size: 23px;
+  justify-content: center;
+}
+
+
+
+/* ------------------- MEDIA SCREEN ------------------- */
+
+@media screen and (min-width: 350px) and (max-width: 1220px) {
+  .brand {
+    font-size: 1.2rem;
+  }
+
+  .me-auto {
+    flex-wrap: wrap;
+    font-size: 18.5px;
+    height: 2.8rem;
+    transition: transform 2s;
+    position: relative;
+    
+  }
+
+  .mt-2 {
+    font-size: 1.1rem;
+  }
+
+  /* --------------- HEADING PAGE -------------- */
+
+  .head-head,
+  .sub-head {
+    font-size: 34.5px;
+    text-align: center;
+  }
+
+  .sub-head {
+    font-size: 17px;
+  }
+
+  .img-row {
+    width: 0%;
+  }
+
+  /* ----------------- CONCERNING PAGE ----------------- */
+
+  .about-about {
+    margin-top: 1vh;
+  }
+
+  .about-about h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .about-about-col {
+    width: 100%;
+  }
+
+  .about-about-edu,
+  .about-about-link,
+  .about-about-skill {
+    margin-left: 10px;
+  }
+
+  /* ---------------- AMUSEMENT PAGE ----------------------- */
+
+  .hobb-head {
+    font-size: 63px;
+    letter-spacing: 9px;
+    padding-top: 25rem;
+    width: 100%;
+  }
+
+  .card-h4 {
+    text-align: start;
+  }
+
+  .carusel-item {
+    height: 29rem;
+    margin-top: 3vh;
+  }
+
+  .carusel-item img {
+    height: 170%;
+  }
+
+  .hobb-link {
+    margin-left: 1rem;
+    text-align: start;
+    width: 100%;
+  }
+
+  .classic {
+    font-size: 1.3em;
+    padding: 5rem 0 ;
+  }
+
+  /* ----------- card here -------- */
+
+  .card {
+    margin: 3rem 0 3rem 0.01rem;
+    width: 100%;
+  }
+
+  .text-card,
+  .text-text {
+    margin: 2.5rem 1rem 3rem 0rem;
+    text-align: start;
+    width: 95%;
+  }
+
+  /* .classic {
+    padding: 2rem;
+  } */
+
+  .classic-ancher {
+    font-weight: 600;
+    height: 20rem;
+    padding: 6.9rem;
+  }
+
+  /* ---------------- LET'S CHAT PAGE ------------------ */
+
+  .conta-cont {
+    display: block;
+    margin-top: 10vh;
+    margin-bottom: 62vh;
+    width: 90%;
+  }
+
+  .conta-head {
+    padding: 3vh 0;
+    width: 100%;
+  }
+
+  .conta-cont-row {
+    width: 95%;
+  }
+
+  .form {
+    padding-left: 0;
+  }
+
+  .mt-3 {
+    padding-top: 14vh;
+  }
+
+  /* -------------- DISCIPLINE PAGE ------------------ */
+
+  .row-edu-row {
+    align-items: center;
+    display: flex;
+    height: 150vh;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .edu-img {
+    margin: -3rem 0 0 12px;
+    width: 100%;
+  }
+
+  .edu-orders {
+    margin-left: 3rem;
+    width: 90%;
+  }
+
+  /* ------------ PROJECTS PAGE -------------------- */
+
+  .proj-card-card {
+    height: 28rem;
+    margin-left: 3rem;
+    width: 80%;
+  }
+
+  /* ------------ EXPERTISE PAGE -------------------- */
+
+  .skills a {
+    font-size: 30px;
+  }
+}
+
+/* --------------- animation starts here -------------- */
+
+@keyframes hobb-head {
+  0% {
+    transform: translate(100rem, 0);
+  }
+
+  100% {
+    transform: translate(-100rem, 0);
+  }
+}
+
+/* @keyframes head-head {
+  0% {
+    width: 0%;
+  }
+ 50%{
+  width: 50%;
+ }
+  100% {
+    width: 100%;
+  }
+} */
